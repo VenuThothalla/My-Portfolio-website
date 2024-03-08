@@ -1,11 +1,8 @@
 import "./mycard.css";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-  FaFacebook,
-  FaInstagram,
-} from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiCodechef } from "react-icons/si";
+import { FaGithub, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 const Mycard = () => {
   return (
@@ -42,14 +39,14 @@ const Mycard = () => {
                   <FaGithub className="logo" />
                 </a>
                 <a
-                  href="https://leetcode.com/venu_/"
+                  href="https://www.linkedin.com/in/venuthothalla"
                   target="_blank"
                   rel="noreferrer"
                   style={{
-                    backgroundColor: "#00ff00",
+                    backgroundColor: "#0077b5",
                   }}
                 >
-                  <FaLinkedin className="logo" />
+                  <FaLinkedinIn className="logo" />
                 </a>
 
                 <a
@@ -57,10 +54,20 @@ const Mycard = () => {
                   target="_blank"
                   rel="noreferrer"
                   style={{
-                    backgroundColor: "#0077b5",
+                    color: "#FFA500",
                   }}
                 >
-                  <FaLinkedin className="logo" />
+                  <SiLeetcode className="logo" />
+                </a>
+                <a
+                  href="https://www.codechef.com/users/venu_yadav337"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    backgroundColor: "#000000",
+                  }}
+                >
+                  <SiCodechef className="logo" />
                 </a>
                 <a
                   href="https://leetcode.com/venu_/"
