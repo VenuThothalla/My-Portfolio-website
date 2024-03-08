@@ -9,7 +9,7 @@
 }
 .myPersonalCard {
   background: rgba(48, 183, 220, 0.797);
-  color: #fff;
+  color: #ffffff;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
@@ -39,13 +39,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
   width: 100%;
-  margin-top: 5px;
+  margin-top: 20px;
 }
-.online-logo {
-  height: 30px;
-  /* width: 50px; */
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fbfbfc;
+  font-size: 40px;
+}
+
+/* Hover effect: Change background color on hover */
+.online-logo-container a:hover .logo {
+  transform: scale(1.2);
 }
 
 .title > h1 {

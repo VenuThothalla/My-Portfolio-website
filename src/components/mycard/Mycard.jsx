@@ -1,8 +1,11 @@
 import "./mycard.css";
-
-// const gitLogo = "https://cdn-icons-png.flaticon.com/512/25/25231.png";
-// const leetcodeLogo =
-//   "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+  FaFacebook,
+  FaInstagram,
+} from "react-icons/fa";
 
 const Mycard = () => {
   return (
@@ -27,29 +30,69 @@ const Mycard = () => {
             {/*<img src="" alt="Developer" />*/}
             <div>
               <p className="titleHead bg-yellow">{`Full - Stack Developer`}</p>
-              {/* <div className="online-logo-container">
+              <div className="online-logo-container">
                 <a
-                  href="https://github.com/piyush362/"
+                  href="https://github.com/VenuThothalla/"
                   target="_blank"
                   rel="noreferrer"
+                  style={{
+                    backgroundColor: "#000000",
+                  }}
                 >
-                  <img className="online-logo" src={gitLogo} alt="Git" />
+                  <FaGithub className="logo" />
                 </a>
                 <a
-                  href="https://leetcode.com/piyushsagar/"
+                  href="https://leetcode.com/venu_/"
                   target="_blank"
                   rel="noreferrer"
+                  style={{
+                    backgroundColor: "#00ff00",
+                  }}
                 >
-                  <img className="online-logo" src={leetcodeLogo} alt="Git" />
+                  <FaLinkedin className="logo" />
+                </a>
+
+                <a
+                  href="https://leetcode.com/venu_/"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    backgroundColor: "#0077b5",
+                  }}
+                >
+                  <FaLinkedin className="logo" />
                 </a>
                 <a
-                  href="https://github.com/piyush362/"
+                  href="https://leetcode.com/venu_/"
                   target="_blank"
                   rel="noreferrer"
+                  style={{
+                    backgroundColor: "#1877F2",
+                  }}
                 >
-                  <img className="online-logo" src={gitLogo} alt="Git" />
+                  <FaFacebook className="logo" />
                 </a>
-              </div> */}
+                <a
+                  href="https://leetcode.com/venu_/"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    backgroundColor: "#FD1D1D",
+                  }}
+                >
+                  <FaInstagram className="logo" />
+                </a>
+                <a
+                  href="https://leetcode.com/venu_/"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    backgroundColor: "#1DA1F2",
+                  }}
+                >
+                  <FaTwitter className="logo" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
