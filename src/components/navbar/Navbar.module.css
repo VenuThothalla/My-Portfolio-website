@@ -44,7 +44,7 @@
 .bar {
   width: 25px;
   height: 3px;
-  background-color: rgba(48, 183, 220, 0.797);
+  background-color: rgba(4, 27, 34, 0.797);
   margin-bottom: 5px;
   z-index: 999;
 }
@@ -63,7 +63,7 @@
 
 /* Navbar */
 .navbar {
-  background-color: rgba(48, 183, 220, 0.797);
+  background-color: rgba(5, 56, 70, 0.797);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   color: white;
   backdrop-filter: blur(5px);
@@ -87,6 +87,7 @@
 
 .navbarList {
   list-style-type: none;
+  top: 60px;
   margin: 0;
   padding: 0;
   overflow: hidden;
