@@ -22,7 +22,7 @@ const Mycard = () => {
 
       <div className="myPersonalCard">
         <div className="title">
-          <h1>Venu Thothalla __</h1>
+          <h1>Venu Thothalla__</h1>
           <div className="title-tag">
             {/*<img src="" alt="Developer" />*/}
             <div>
