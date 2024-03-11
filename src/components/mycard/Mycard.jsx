@@ -80,7 +80,7 @@ const Mycard = () => {
                   <FaFacebook className="logo" />
                 </a>
                 <a
-                  href="https://leetcode.com/venu_/"
+                  href="https://www.instagram.com/___venu.t/"
                   target="_blank"
                   rel="noreferrer"
                   style={{
