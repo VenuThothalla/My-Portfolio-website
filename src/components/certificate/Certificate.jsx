@@ -3,6 +3,8 @@ import logo from "./Salesforce.jpg";
 import pythonC from "./Certificate-Python.jpg";
 import AccentureC from "./Accenture-certificate.jpg";
 import sqlC from "./sql-hackerRank.jpg";
+import jpmorgan from "./jpmorgan.jpg";
+
 const Certificate = () => {
   return (
     <div id="certificate" className="c-continer">
@@ -22,7 +24,7 @@ const Certificate = () => {
             <img src={pythonC} alt="img" />
           </a>
           <a
-            href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20Nordics/PxenP4rHNE6Bh4nQz_Accenture%20Nordics_Sh9uhBaQgioF4Cs2C_1701428897109_completion_certificate.pdf"
+            href="https://drive.google.com/file/d/1oNyA42DhYmHIvK6KZmaD83F-7vv3oDwo/view?usp=sharing"
             target="_blank"
           >
             <img src={AccentureC} alt="img" />
@@ -33,6 +35,13 @@ const Certificate = () => {
             target="_blank"
           >
             <img src={sqlC} alt="img" />
+          </a>
+
+          <a
+            href="https://drive.google.com/file/d/1YisEc5e0Z8GIlvbwcCS2MCA0DnaqYytm/view?usp=sharing"
+            target="_blank"
+          >
+            <img src={jpmorgan} alt="img" />
           </a>
         </div>
       </div>
